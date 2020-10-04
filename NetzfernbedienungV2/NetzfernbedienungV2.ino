@@ -119,7 +119,7 @@ void handleReceivedMessage(String msg)
     aus();
   }else if(msg == command1[Switch2OFF])
   {
-    Serial.println("EIN");
+    Serial.println("AUS");
     zwei_aus();
     delay(1000);
     aus();
@@ -134,7 +134,7 @@ void handleReceivedMessage(String msg)
     aus();
   }else if(msg == command1[Switch1OFF])
   {
-    Serial.println("EIN");
+    Serial.println("AUS");
     eins_aus();
     delay(1000);
     aus();
